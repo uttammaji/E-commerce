@@ -1,9 +1,9 @@
+import { useState } from "react"
 
-
-export const Login = () => {
-  return (
-    <div>Login</div>
-  )
+const Login=()=>{
+  const [isLoginState,setIsLoginState]=useState(true)
+  const [name,setName]=useState("")
+  const [email,setEmail]=useState("")
 }
 
 
